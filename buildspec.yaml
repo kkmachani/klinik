@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install: null
   runtime-versions: null
-  nodejs: v16.17.0
+  nodejs: v16
   post_build: null
   commands: aws s3 sync . s3://YOUR_BUCKET_NAME
 artifacts:
