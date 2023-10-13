@@ -5,6 +5,6 @@ phases:
   runtime-versions: null
   nodejs: v16.17.0
   post_build: null
-  commands:
-    - aws s3 sync . s3://YOUR_BUCKET_NAME
-artifacts: files: "**/*"
+  commands: aws s3 sync . s3://YOUR_BUCKET_NAME
+artifacts:
+  files: "**/*"
