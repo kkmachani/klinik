@@ -1,10 +1,10 @@
 ---
 version: 0.2
 phases:
-  install: 
-  runtime-versions: 
+  install: null
+  runtime-versions: null
   nodejs: v16
-  post_build: 
+  post_build: null
   commands: aws s3 sync . s3://klinikproject
 artifacts:
   files: "**/*"
