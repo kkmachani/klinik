@@ -7,4 +7,4 @@ phases:
   post_build: null
   commands:
     - aws s3 sync . s3://YOUR_BUCKET_NAME
-artifacts: files:"**/*"
+artifacts: files: "**/*"
