@@ -5,6 +5,7 @@ phases:
     runtime-versions:
       nodejs: 18
   post_build: 
-    commands: aws s3 sync . s3://klinikproject
+    commands: 
+     - aws s3 sync . s3://klinikproject
 artifacts:
   files: "**/*"
